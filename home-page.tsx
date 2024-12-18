@@ -133,6 +133,32 @@ export default function HomePage() {
           </CardContent>
         </Card>
       </div>
+
+      <div className="mt-8">
+        <h2 className="text-2xl font-bold mb-4">Navigation</h2>
+        <ul className="space-y-2">
+          <li>
+            <Link href="/spending-by-program">
+              <Button>Spending by Program</Button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/projected-spend">
+              <Button>Projected Spend</Button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/cash-on-hand">
+              <Button>Cash on Hand</Button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/payroll-by-month">
+              <Button>Payroll by Month</Button>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
