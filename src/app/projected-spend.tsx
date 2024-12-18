@@ -3,7 +3,11 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import HomePage from '../home-page'
+
+export default function Home() {
+  return <HomePage />
+}
 
 const data = [
   { month: 'Jan', amount: 4000 },
