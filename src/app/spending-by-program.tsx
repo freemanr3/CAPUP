@@ -3,8 +3,11 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import HomePage from '../home-page'
 
+export default function Home() {
+  return <HomePage />
+}
 const data = [
   { name: 'Program A', value: 400 },
   { name: 'Program B', value: 300 },
